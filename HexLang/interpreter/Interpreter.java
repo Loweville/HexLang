@@ -26,7 +26,7 @@ public class Interpreter {
 			ASTCode parser = lang.code();
 			HexLangVisitor nodeVisitor;
 			if(debugAST)
-				nodeVisitor = new ParseDebugger();
+				nodeVisitor = new ParserDebugger();
 			else
 				nodeVisitor = new Parser();
 			parser.jjtAccept(nodeVisitor, null);
