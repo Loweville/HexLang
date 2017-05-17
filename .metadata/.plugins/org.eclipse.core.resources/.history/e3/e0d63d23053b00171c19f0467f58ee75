@@ -1,0 +1,12 @@
+package interpreter;
+
+import parser.*;
+
+public class Interpreter {
+
+	public static void main(String[] args) {
+		boolean debugAST = false;
+		
+	}
+
+}

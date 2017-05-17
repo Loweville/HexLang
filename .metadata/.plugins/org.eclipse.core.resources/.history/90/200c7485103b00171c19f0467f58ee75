@@ -1,0 +1,12 @@
+public function test(num) 
+{
+	if(num < 10)
+	{
+		print(num);
+		num++;
+		test(num);
+	}
+		return num
+}
+
+print(test);

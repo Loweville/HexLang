@@ -1,0 +1,7 @@
+fn test(num) 
+{
+	if(num < 10)
+	{
+		
+	}
+}

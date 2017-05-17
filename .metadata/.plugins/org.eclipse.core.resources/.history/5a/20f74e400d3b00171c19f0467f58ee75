@@ -1,0 +1,8 @@
+fn test(num) 
+{
+	if(num < 10)
+	{
+		print(num);
+		num++;
+	}
+}

@@ -1,0 +1,17 @@
+package interpreter;
+
+import parser.*;
+
+public class Interpreter {
+
+	public static void main(String[] args) {
+		boolean debugAST = false;
+		if(args.length == 1){
+			if(args[0].equals("-d1")){
+				debugAST =  
+			}
+		}
+			
+	}
+
+}

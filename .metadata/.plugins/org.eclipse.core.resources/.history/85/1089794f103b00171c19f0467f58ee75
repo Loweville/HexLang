@@ -1,0 +1,7 @@
+int i = 12;
+string s = "hello";
+double d = 3.7;
+array a = {i,s,d};
+
+print(a.Items());
+
