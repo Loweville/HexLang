@@ -1,0 +1,3 @@
+#!/bin/sh
+jjtree HexLang.jjt
+javacc HexLang.jj
